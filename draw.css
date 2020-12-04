@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+}
+
+.title {
+
+    text-align: center;
+    margin-top: 15px;
+    
+
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(134, 197, 240);
+    border-bottom: 1px solid gray;
+    position: absolute;
+    width: 100%;
+    margin-top: 30px;
+    
+    
+}
+
+.top-bar * {
+    margin: 5px 10px;
+    width: 60px;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(21, 21, 22);
+    
+}
+
+#draw {
+    display: block;
+    background-color: white;
+}
+
+#canvas{
+    color: red;
+}
+
+
+
